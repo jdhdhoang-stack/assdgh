@@ -164,7 +164,7 @@ export const Configuration: React.FC<ConfigurationProps> = memo(({
                 <button
                     onClick={onProcessQueue}
                     disabled={isProcessing || pendingChunksCount === 0}
-                    className="w-full py-5 rounded-3xl text-sm font-black uppercase tracking-[0.2em] text-white bg-slate-100 hover:bg-white text-slate-950 transition-all active:scale-[0.98] disabled:opacity-10 shadow-2xl shadow-slate-950/50"
+                    className="w-full py-5 rounded-3xl text-sm font-black uppercase tracking-[0.2em] text-white bg-blue-600 hover:bg-blue-500 transition-all active:scale-[0.98] disabled:opacity-10 shadow-2xl shadow-blue-900/20"
                 >
                     {isProcessing ? 'Đang xử lý...' : `Bắt đầu Tổng hợp (${pendingChunksCount})`}
                 </button>
